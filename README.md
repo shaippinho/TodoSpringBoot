@@ -8,7 +8,9 @@
 ```
 Spring Boot 3
 SQL Server
-Migrations
+Flyway
+JPA
+Lombok
 ```
 <details>
 
