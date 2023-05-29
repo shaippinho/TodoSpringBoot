@@ -10,8 +10,9 @@ Spring Boot 3
 SQL Server
 Migrations
 ```
+<details>
 
-### Exemplo payload
+<summary>Exemplo payload</summary>
 
 ```json
 {
@@ -30,3 +31,4 @@ Migrations
     }
 }
 ```
+</details>
