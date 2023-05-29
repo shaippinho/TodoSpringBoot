@@ -1,0 +1,7 @@
+IF EXISTS ( SELECT 'TRUE'
+			    FROM INFORMATION_SCHEMA.COLUMNS
+				WHERE TABLE_NAME = 'medicos'
+				AND COLUMN_NAME = 'createDate')
+BEGIN
+	ALTER TABLE [medicos] ADD CONSTRAINT [medicos_createDate_DF] DEFAULT ( GETDATE() ) FOR [createDate]
+END
